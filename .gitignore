@@ -1,0 +1,12 @@
+# Logs
+logs
+*.log
+
+# Debug log from npm
+npm-debug.log
+
+.DS_Store
+
+.env
+
+node_modules

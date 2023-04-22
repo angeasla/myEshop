@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>myEshop | Simple eshop app</title>
+</head>
+<body>
+
+    <!--menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container-lg">
+            <a class="navbar-brand" href="./index.html">myEshop</a>
+
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNavDropDown"
+                    aria-controls="navbarNavDropDown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropDown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" 
+                            href="#" 
+                            id="navbarDropDownMenuLink"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Χρήστες
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labeledBy="navbarDropDownMenuLink">
+                            <li><a class="dropdown-item" href="./user/create.html">Δημιουργία</a></li>
+                            <li><a class="dropdown-item" href="./user/find.html">Εμφάνιση</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" 
+                            href="#" 
+                            id="navbarDropDownMenuLink2"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Προϊόντα
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labeledBy="navbarDropDownMenuLink2">
+                            <li><a class="dropdown-item" href="./product/create.html">Δημιουργία</a></li>
+                            <li><a class="dropdown-item" href="./product/find.html">Εμφάνιση</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" role="button">Αγορά προϊόντων</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="" role="button">Στατιστικά</a>
+                    </li>
+                </ul>
+
+                
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!--header-->
+    <header class="container-fluid">
+        <div class="container-lg text-center text-white mt-5 py-5">
+            <h1>Καλωσήρθατε στο myEshop</h1>
+        </div>
+    </header>
+
+
+    <!--main-->
+    <div class="container-fluid">
+        <div class="container-lg">
+            <h3 class="text-center py-3 pb-3"> Τι είναι το eshop;</h3>
+            <p class="fs-5">
+                <strong>Ηλεκτρονικό κατάστημα (e-shop)</strong> είναι ο όρος που χρησιμοποιείται για να αναφερθεί κάποιος σε ένα Διαδικτυακό τόπο (site) μέσω του οποίου πραγματοποιούνται πωλήσεις διαφόρων ειδών. Ορισμένες πλατφόρμες δημοπρασιών προσφέρουν και συστήματα ηλεκτρονικών καταστημάτων.
+              </p>
+              <p class="fs-5">
+                Η Επανάσταση της Πληροφορικής άλλαξε σημαντικά τον τρόπο ζωής των πολιτών, επιφέροντας μια σειρά αλλαγών, που επηρεάζουν και τις εμπορικές επιχειρήσεις. Αυτές οι αλλαγές μπορούν να αποτελέσουν σημαντικό όπλο στα χέρια των επιχειρήσεων που θέλουν να ανταποκριθούν στις απαιτήσεις ενός νέου περιβάλλοντος που χαρακτηρίζεται από συνεχώς μεταβαλλόμενες συνθήκες, διεθνοποίηση και εντατικοποίηση του ανταγωνισμού, κ.α. Οι επιχειρήσεις που θα "επιβιώσουν" στον ανταγωνισμό είναι αυτές που στον παρόντα χρόνο θα κάνουν τις στρατηγικές επιλογές για την ενσωμάτωση των νέων τεχνολογιών στις πρακτικές τους. Παλαιότερα, η ενσωμάτωση αυτή περιλάμβανε μόνο την ηλεκτρονική παρουσίαση των καταστημάτων, όχι όμως και όλων των ειδών τους και, πολύ περισσότερο, δεν υπήρχε δυνατότητα άμεσης παραγγελίας κάποιου είδους.
+              </p>  
+              <p class="fs-5">
+                Το ηλεκτρονικό επιχειρείν (E-Business) αναφέρεται στην πραγματοποίηση επιχειρηματικών συναλλαγών μέσω του Internet και είναι η προσαρμογή του κλασικού επιχειρηματικού μοντέλου στην νέα ηλεκτρονική πραγματικότητα ή την ανάπτυξη νέου επιχειρηματικού μοντέλου με αντικείμενο μόνο το Διαδίκτυο.
+              </p>
+              <p class="fs-5">
+                Όπως χαρακτηριστικά έχει πει ο Μπιλ Γκέιτς: "Το Διαδίκτυο δεν είναι απλώς άλλο ένα κανάλι πωλήσεων. Θα μετασχηματίσει την επιχείρησή σας. Η μελλοντική επιχείρηση θα λειτουργεί με ένα ψηφιακό νευρικό σύστημα". Με λίγα λόγια: Πωλήσεις σε οποιονδήποτε, οπουδήποτε, οποτεδήποτε.
+              </p>
+        </div>
+    </div>
+
+    <!--line-->
+    <div class="container-lg" col-4>
+        <hr>
+    </div>
+
+
+    <!--album-->
+    <div class="container-fluid">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="./assets/images/smartphones.jpg" class="card-img">
+                        <div class="card-img-overlay">
+                          <h4 class="card-title">
+                            <a class="card=link text-white" href="#">    
+                            Κινητά
+                            </a>
+                        </h4>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm-4">
+                <div class="card">
+                    <img src="./assets/images/pc.jpeg" class="card-img">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">
+                            <a class="card=link text-white" href="#">    
+                            Υπολογιστές
+                            </a>
+                        </h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="./assets/images/peripherals.jpeg" class="card-img">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">
+                                <a class="card=link text-white" href="#">    
+                                Περιφερειακά
+                                </a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!--footer-->
+     <footer class="container-fluid">
+        <div class="container-lg py-5 mt-5">
+            <div class="row">
+                <div class="col-sm-12 text-center text-white">
+                    <p>Copyright &copy myEshop. All rights reserved, 2023</p>
+                </div>
+
+                <div class="col-sm-12 text-center text-white">
+                    <p>myEshop: Προϊόντα Τεχνολογίας σε τιμές ευκαιρίας</p>
+                </div>
+            </div>
+        </div>
+     </footer>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
